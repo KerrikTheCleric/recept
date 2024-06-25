@@ -5,7 +5,11 @@
     width: 75%;
   }
 
-  #underImage{
+.textSections{
+    background-color: #e69e51;
+}
+
+#underImage{
     display: flex;
     justify-content: center;
   }
@@ -14,11 +18,18 @@ body {
     background-color: #a6641d;
   }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
+li {
+    margin-top: 10px;
+}
+    
+li:first-child {
+    margin-top:0;
+}
